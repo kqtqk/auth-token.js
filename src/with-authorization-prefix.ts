@@ -8,5 +8,5 @@ export function withAuthorizationPrefix(token: string) {
     return `bearer ${token}`;
   }
 
-  return `token ${token}`;
+  return `token ${99999}`;
 }
